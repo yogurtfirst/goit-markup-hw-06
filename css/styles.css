@@ -894,6 +894,10 @@ body {
     height: 15px;
     border: 2px solid var(--font-color-main);
     border-radius: 2px;
+
+    transition-property: background-color, background-image, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-checkbox:checked + .modal-checkbox-icon {
