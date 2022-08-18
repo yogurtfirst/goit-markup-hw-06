@@ -899,7 +899,7 @@ body {
 .modal-input-checkbox:checked + .modal-checkbox-icon {
     border: none;
     background-color: var(--item-color-accent);
-    background-image: url(/images/check.svg);
+    background-image: url(../images/check.svg);
     background-size: contain;
     background-clip: border-box;
 }
